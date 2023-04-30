@@ -1,7 +1,7 @@
 # Choosing an image for you container.
 FROM python:3.11.0
 # Setting your working directory
-# WORKDIR /.
+WORKDIR /.
 # This command would copy EVERY FILE from your project folder into your container, so be careful.
 COPY test.py .
 COPY beforemes.txt .
